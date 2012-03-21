@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600"  xmlns:operacionesforo="services.operacionesforo.*">
+	<fx:Style source="Foro.css"/>
+	<fx:Script>
+		<![CDATA[
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+			
+			
+			
+		]]>
+	</fx:Script>
+	<s:states>
+		<s:State name="init"/>
+		<s:State name="adentro" />
+	</s:states>
+	<fx:Declarations>
+		
+	</fx:Declarations>
+	<s:Button includeIn="init" x="778" y="559" label="Registrarse" width="167" height="31" fontSize="15"/>
+	<s:Button x="778" y="42" label="Acceder" width="167" height="31" fontSize="15" includeIn="init" color="#EED7AA"/>
+	<s:Label includeIn="init" x="500" y="200" text="Nombre:" color="#EB4C4C" fontSize="15"/>
+	<s:Label x="500" y="250" text="Apellidos:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:Label x="500" y="300" text="Correo Electrónico:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:Label x="500" y="350" text="Contraseña:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:Label x="500" y="400" text="Sexo:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:Label x="500" y="450" text="Edad:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:TextInput includeIn="init" x="647" y="191" width="298" height="24"/>
+	<s:TextInput x="449" y="11" width="179" height="24" includeIn="init"/>
+	<s:TextInput x="766" y="10" width="179" height="24" includeIn="init"/>
+	<s:Label x="640" y="19" text="Contraseña:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:TextInput x="647" y="241" width="298" height="24" includeIn="init"/>
+	<s:TextInput x="647" y="291" width="298" height="24" includeIn="init"/>
+	<s:TextInput x="647" y="341" width="298" height="24" includeIn="init" displayAsPassword="true"/>
+	<s:ComboBox includeIn="init" x="647" y="392">
+		<s:dataProvider>
+			<mx:ArrayList>
+				<fx:String>Hombre</fx:String>
+				<fx:String>Mujer</fx:String>
+			</mx:ArrayList>
+		</s:dataProvider>
+	</s:ComboBox>
+	<s:Label x="311" y="20" text="Correo Electrónico:" color="#EB4C4C" fontSize="15" includeIn="init"/>
+	<s:TextInput x="647" y="445" width="137" height="24" displayAsPassword="true" includeIn="init"/>
+	
+</s:Application>

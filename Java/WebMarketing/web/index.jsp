@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 21-mar-2012, 0:49:46
+    Created on : 21-mar-2012, 2:29:09
     Author     : zerofkw
 --%>
 
@@ -14,6 +14,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hello Mundo!</h1>
     </body>
 </html>

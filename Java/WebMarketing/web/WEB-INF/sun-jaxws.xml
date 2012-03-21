@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
-  <endpoint implementation="com.ws.marketing" name="marketing" url-pattern="/marketing"/>
-  <endpoint implementation="com.ws.foro" name="foro" url-pattern="/foro"/>
+  <endpoint implementation="com.ws.operacionesForo" name="operacionesForo" url-pattern="/operacionesForo"/>
+  <endpoint implementation="com.ws.operacionesMarketing" name="operacionesMarketing" url-pattern="/operacionesMarketing"/>
 </endpoints>

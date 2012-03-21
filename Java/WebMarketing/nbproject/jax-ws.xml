@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
-    <service name="marketing">
-      <implementation-class>com.ws.marketing</implementation-class>
+    <service name="operacionesForo">
+      <implementation-class>com.ws.operacionesForo</implementation-class>
     </service>
-    <service name="foro">
-      <implementation-class>com.ws.foro</implementation-class>
+    <service name="operacionesMarketing">
+      <implementation-class>com.ws.operacionesMarketing</implementation-class>
     </service>
   </services>
   <clients/>
